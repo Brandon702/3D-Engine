@@ -169,10 +169,14 @@
     <ClCompile Include="Engine\Core\EventManager.cpp" />
     <ClCompile Include="Engine\Core\File.cpp" />
     <ClCompile Include="Engine\Core\System.cpp" />
-    <ClCompile Include="Engine\Core\time.cpp" />
+    <ClCompile Include="Engine\Core\timer.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Graphics\Model.cpp" />
     <ClCompile Include="Engine\Graphics\Program.cpp" />
     <ClCompile Include="Engine\Graphics\Renderer.cpp" />
     <ClCompile Include="Engine\Graphics\Texture.cpp" />
+    <ClCompile Include="Engine\Graphics\VertexArray.cpp" />
+    <ClCompile Include="Engine\Graphics\VertexIndexArray.cpp" />
     <ClCompile Include="Engine\Input\InputSystem.cpp" />
     <ClCompile Include="Engine\Resources\ResourceManager.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -190,10 +194,14 @@
     <ClInclude Include="Engine\Core\File.h" />
     <ClInclude Include="Engine\Core\Singleton.h" />
     <ClInclude Include="Engine\Core\System.h" />
-    <ClInclude Include="Engine\Core\time.h" />
+    <ClInclude Include="Engine\Core\timer.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Graphics\Model.h" />
     <ClInclude Include="Engine\Graphics\Program.h" />
     <ClInclude Include="Engine\Graphics\Renderer.h" />
     <ClInclude Include="Engine\Graphics\Texture.h" />
+    <ClInclude Include="Engine\Graphics\VertexArray.h" />
+    <ClInclude Include="Engine\Graphics\VertexIndexArray.h" />
     <ClInclude Include="Engine\Input\InputSystem.h" />
     <ClInclude Include="Engine\Math\Math.h" />
     <ClInclude Include="Engine\Resources\Resource.h" />
@@ -207,6 +215,8 @@
   <ItemGroup>
     <None Include="..\Build\Shaders\Basic.frag" />
     <None Include="..\Build\Shaders\Basic.vert" />
+    <None Include="..\Build\Shaders\gouraud.frag" />
+    <None Include="..\Build\Shaders\gouraud.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

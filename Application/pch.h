@@ -3,6 +3,7 @@
 #include "Engine/Core/File.h"
 #include "Engine/Core/Assert.h"
 #include "Engine/Math/Math.h"
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <glad/glad.h>

@@ -57,9 +57,6 @@
     <ClCompile Include="Engine\Core\System.cpp">
       <Filter>Source\Engine\Core</Filter>
     </ClCompile>
-    <ClCompile Include="Engine\Core\time.cpp">
-      <Filter>Source\Engine\Core</Filter>
-    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -81,6 +78,21 @@
     <ClCompile Include="Engine\Graphics\Program.cpp">
       <Filter>Source\Engine\Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="Engine\Core\timer.cpp">
+      <Filter>Source\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\VertexIndexArray.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\VertexArray.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Model.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -99,9 +111,6 @@
       <Filter>Source\Engine\Core</Filter>
     </ClInclude>
     <ClInclude Include="Engine\Core\System.h">
-      <Filter>Source\Engine\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine\Core\time.h">
       <Filter>Source\Engine\Core</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
@@ -131,6 +140,21 @@
     <ClInclude Include="Engine\Graphics\Program.h">
       <Filter>Source\Engine\Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="Engine\Core\timer.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\VertexIndexArray.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\VertexArray.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Model.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Application.rc">
@@ -142,6 +166,12 @@
       <Filter>Resource\Shaders</Filter>
     </None>
     <None Include="..\Build\Shaders\Basic.vert">
+      <Filter>Resource\Shaders</Filter>
+    </None>
+    <None Include="..\Build\Shaders\gouraud.frag">
+      <Filter>Resource\Shaders</Filter>
+    </None>
+    <None Include="..\Build\Shaders\gouraud.vert">
       <Filter>Resource\Shaders</Filter>
     </None>
   </ItemGroup>
